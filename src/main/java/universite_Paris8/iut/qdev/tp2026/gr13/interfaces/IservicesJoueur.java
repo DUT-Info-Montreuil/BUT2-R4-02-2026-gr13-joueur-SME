@@ -1,5 +1,6 @@
 package universite_Paris8.iut.qdev.tp2026.gr13.interfaces;
 
+import universite_Paris8.iut.qdev.tp2026.gr13.entities.dtos.JoueurDTO;
 import universite_Paris8.iut.qdev.tp2026.gr13.utils.exceptions.*;
 
 public interface IservicesJoueur {
@@ -18,11 +19,11 @@ public interface IservicesJoueur {
      * @throws InvalidFormatException   si le format d'un champ est incorrect (ex: pseudo contient des caractères interdits)
      * @throws ValidationException      si la validation globale du joueur échoue (champs obligatoires manquants, etc.)
      */
-    public void creeJoueur(String prenom,
-                           String pseudo,
-                           Integer anneeNaissance,
-                           String centresInterets,
-                           Integer codeLangue)
+    public JoueurDTO creeJoueur(String prenom,
+                                String pseudo,
+                                Integer anneeNaissance,
+                                String centresInterets,
+                                Integer codeLangue)
             throws DuplicatePseudoException,
             InvalidChoiceException,
             OutOfRangeException,

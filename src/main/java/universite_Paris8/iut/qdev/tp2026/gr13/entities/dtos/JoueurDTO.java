@@ -1,20 +1,18 @@
 package universite_Paris8.iut.qdev.tp2026.gr13.entities.dtos;
 
 import universite_Paris8.iut.qdev.tp2026.gr13.entities.enums.LangueEnum;
+import java.util.ArrayList;
 
 public class JoueurDTO {
     private String prenom;
     private String pseudo;
     private Integer anneeNaissance;
-    private String centresInterets;
+    private ArrayList<String> centresInterets;
     private LangueEnum languePreferee;
-
-    // Constructeur vide
-    public JoueurDTO() {}
 
     // Constructeur complet
     public JoueurDTO(String prenom, String pseudo, Integer anneeNaissance,
-                     String centresInterets, LangueEnum languePreferee) {
+                     ArrayList<String> centresInterets, LangueEnum languePreferee) {
         this.prenom = prenom;
         this.pseudo = pseudo;
         this.anneeNaissance = anneeNaissance;
@@ -47,11 +45,11 @@ public class JoueurDTO {
         this.anneeNaissance = anneeNaissance;
     }
 
-    public String getCentresInterets() {
+    public ArrayList<String> getCentresInterets() {
         return centresInterets;
     }
 
-    public void setCentresInterets(String centresInterets) {
+    public void setCentresInterets(ArrayList<String> centresInterets) {
         this.centresInterets = centresInterets;
     }
 
@@ -69,7 +67,7 @@ public class JoueurDTO {
                 "prenom='" + prenom + '\'' +
                 ", pseudo='" + pseudo + '\'' +
                 ", anneeNaissance=" + anneeNaissance +
-                ", centresInterets='" + centresInterets + '\'' +
+                ", centresInterets=" + centresInterets +
                 ", languePreferee=" + languePreferee +
                 '}';
     }
