@@ -19,11 +19,7 @@ public interface IservicesJoueur {
      * @throws InvalidFormatException   si le format d'un champ est incorrect (ex: pseudo contient des caractères interdits)
      * @throws ValidationException      si la validation globale du joueur échoue (champs obligatoires manquants, etc.)
      */
-    public JoueurDTO creeJoueur(String prenom,
-                                String pseudo,
-                                Integer anneeNaissance,
-                                String centresInterets,
-                                Integer codeLangue)
+    public JoueurDTO creeJoueur(String prenom, String pseudo, Integer anneeNaissance, String centresInterets, Integer codeLangue)
             throws DuplicatePseudoException,
             InvalidChoiceException,
             OutOfRangeException,

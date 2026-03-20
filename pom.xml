@@ -4,10 +4,10 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>universite_Paris8.iut.qdev.tp2026.gr13</groupId>
-  <artifactId>BUT2-R4-02-2026-grp13-PleaseSaveMeClaude-SAPP</artifactId>
+  <artifactId>BUT2-R4-02-2026-grp13-PleaseSaveMeClaude-joueur-SME</artifactId>
   <version>1.0.0-SNAPSHOT</version>
 
-  <name>BUT2-R4-02-2026-grp13-PleaseSaveMeClaude-SAPP</name>
+  <name>BUT2-R4-02-2026-grp13-PleaseSaveMeClaude-joueur-SME</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
