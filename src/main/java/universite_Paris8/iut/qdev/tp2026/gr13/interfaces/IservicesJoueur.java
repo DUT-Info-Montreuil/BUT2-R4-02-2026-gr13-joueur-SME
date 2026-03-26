@@ -24,5 +24,5 @@ public interface IservicesJoueur {
             InvalidChoiceException,
             OutOfRangeException,
             InvalidFormatException,
-            ValidationException;
+            ValidationException, InteretFormatException;
 }
