@@ -1,4 +1,4 @@
-package universite_Paris8.iut.qdev.tp2026.gr13.entities.impl;
+package universite_Paris8.iut.qdev.tp2026.gr13.impl
 
 import universite_Paris8.iut.qdev.tp2026.gr13.entities.dtos.JoueurDTO;
 import universite_Paris8.iut.qdev.tp2026.gr13.entities.enums.LangueEnum;
