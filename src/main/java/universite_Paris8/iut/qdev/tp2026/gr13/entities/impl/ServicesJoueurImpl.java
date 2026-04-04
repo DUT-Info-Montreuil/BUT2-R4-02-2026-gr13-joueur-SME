@@ -1,13 +1,14 @@
-package universite_Paris8.iut.qdev.tp2026.gr13.interfaces;
+package universite_Paris8.iut.qdev.tp2026.gr13.entities.impl;
 
 import universite_Paris8.iut.qdev.tp2026.gr13.entities.dtos.JoueurDTO;
 import universite_Paris8.iut.qdev.tp2026.gr13.entities.enums.LangueEnum;
+import universite_Paris8.iut.qdev.tp2026.gr13.interfaces.IServicesJoueur;
 import universite_Paris8.iut.qdev.tp2026.gr13.utils.exceptions.*;
 
 import java.time.Year;
 import java.util.ArrayList;
 
-public class ServicesJoueur implements IservicesJoueur {
+public class ServicesJoueurImpl implements IServicesJoueur {
 
     private final ArrayList<JoueurDTO> joueurs = new ArrayList<>();
 
